@@ -1,0 +1,105 @@
+% TU Delft Beamer template
+% Author: Maarten Abbink
+% Delft University of Technology
+% March 2014
+% Version 2.0
+% Based on original version 1.0 of Carl Schneider
+\documentclass{beamer}
+\usepackage[english]{babel}
+\usepackage{calc}
+\usepackage[absolute,overlay]{textpos}
+\mode<presentation>{\usetheme{tud}}
+
+\title{VIDA ARTIFICIAL}
+%\subtitle
+\institute{ING INFORMATICA}
+\author{INTELIGENCIA ARTIFICIAL}
+
+
+% Insert frame before each subsection (requires 2 latex runs)
+\AtBeginSubsection[] {
+	\begin{frame}<beamer>\frametitle{\titleSubsec}
+		\tableofcontents[currentsection,currentsubsection]  % Generation of the Table of Contents
+	\end{frame}
+}
+% Define the title of each inserted pre-subsection frame
+\newcommand*\titleSubsec{Next Subsection}
+% Define the title of the "Table of Contents" frame
+
+
+% define a symbol which can be removed if you don't need it
+\newcommand{\field}[1]{\mathbb{#1}}
+\newcommand{\Zset}{\field{Z}}
+
+\begin{document}
+
+{
+% remove the next line if you don't want a background image
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{images/001.png}}%
+\setbeamertemplate{footline}{\usebeamertemplate*{minimal footline}}
+\frame{\titlepage}
+}
+
+
+\begin{frame}\frametitle{VIDA ARTIFICIAL}
+	\begin{alertblock}{CONCEPTO}
+		la Vida Artificial es el estudio de la vida y de los sistemas artificiales que exhiben propiedades similares a los seres vivos, a través de modelos de simulación:\\
+	\end{alertblock}
+	
+\begin{enumerate}
+\includegraphics[angle=0, scale=0.4]{images/006.png}
+ 
+		\end{enumerate}
+	
+\end{frame}
+
+
+\begin{frame}\frametitle{CARACTERISTICAS}
+	\begin{alertblock}{	Evolución}
+	 La evolución ha generado los sistemas vivos que existen hoy en día. Se asume que la evolución biológica no tiene fin: No hay límite para la diversidad y complejidad de los sistemas que son generados.
+	\end{alertblock}
+		\begin{alertblock}{Regulación de genes}
+	RLa regulación de genes y la dinámica de la expresión genética ha provocad el interés de la biología teórica y de la cibernética siguiendo el descubrimiento de mecanismos regulatorios de genes..
+	\end{alertblock}
+
+	
+\end{frame}
+
+\begin{frame}\frametitle{CARACTERISTICAS}
+	\begin{alertblock}{Desarrollo}
+	 El desarrollo de patrones y estructuras morfológicas ha inspirado modelos formales como los sistemas reacción-difusión los sistemas Lindenmayer. Muchos de estos enfoques fueron adoptados y desarrollados con la ayuda de la vida artificial.
+	\end{alertblock}
+		\begin{alertblock}{Robots}
+	 Robots • Los robots y otros sistemas de hardware son parte del mundo físico y sujeto de las fuerzas físicas, esto puede ser una ventaja esencial sobre los sistemas virtuales basados en software en los cuales son requeridos muchos esfuerzos para simular aspectos físicos.
+	\end{alertblock}
+
+	
+\end{frame}
+
+\begin{frame}\frametitle{CARACTERISTICAS}
+	\begin{alertblock}{ Auto-organización}
+	Los sistemas que son capaces de mantener su propia estructura son llamados auto- organizados. Las células, con su habilidad de sintetizar todos sus componentes son paradigma de auto-organización.
+	\end{alertblock}
+	\begin{enumerate}
+\includegraphics[angle=0, scale=0.4]{images/005.jpg}
+ 
+		\end{enumerate}
+
+	
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Conclusión}
+	\begin{block}
+	\centering{La Vida Artificial no sólo ha sido útil para comprender mejor a los sistemas biológicos. El conocimiento adquirido se ha utilizado para construir sistemas tecnológicos con diversas propiedades que son características de los sistemas vivos, tales como adaptación, robustez, y autonomía. Tema fascinante que sin lugar a dudas transformara el mundo de los sistemas, la vida artificial se constituirá en una de las disciplinas tecnológicas más influyentes en el ya próximo milenio}
+	\end{block}
+\end{frame}
+
+\begin{frame}\frametitle{Conclusión}
+	\begin{block}
+	\centering{La Vida Artificial no sólo ha sido útil para comprender mejor a los sistemas biológicos. El conocimiento adquirido se ha utilizado para construir sistemas tecnológicos con diversas propiedades que son características de los sistemas vivos, tales como adaptación, robustez, y autonomía. Tema fascinante que sin lugar a dudas transformara el mundo de los sistemas, la vida artificial se constituirá en una de las disciplinas tecnológicas más influyentes en el ya próximo milenio}
+	\end{block}
+\end{frame}
+
+\end{document}
